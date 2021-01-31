@@ -1,5 +1,4 @@
 //Loading animation.
-
 #include<stdio.h>
 #include<windows.h>
 #include<stdlib.h>
@@ -7,15 +6,6 @@
 void gotoxy(int,int);  
 void load();
 void print();
-
-
-
-//Defining the coordinates.
-struct coordinate{
-    int x;
-    int y;
-    int direction;
-};
 
 int main(){
     int delay;
